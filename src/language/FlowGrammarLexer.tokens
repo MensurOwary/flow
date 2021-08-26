@@ -1,0 +1,12 @@
+DIAGRAM=1
+END=2
+RELATIONS=3
+FOLLOWS=4
+Alphabet=5
+STRING_LIT=6
+STRING_LIT_NO_QUOTES=7
+WS=8
+'diagram'=1
+'end'=2
+'relations'=3
+'->'=4
