@@ -1,0 +1,29 @@
+diagram
+
+    rect a
+        title.Indila
+        color.0000ff
+    end
+
+    rect b
+        title.Hello
+        color.ff0000
+    end
+
+    data c
+        title.NotHello
+        color.00ff00
+    end
+
+    rect d
+        title.Viaara
+        color.00ffff
+    end
+
+    relations
+        a->b
+        b->c
+        c->d
+    end
+
+end

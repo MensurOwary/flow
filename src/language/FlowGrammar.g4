@@ -9,7 +9,7 @@ RELATIONS: 'relations';
 FOLLOWS: '->';
 Alphabet: [a-zA-Z]+;
 STRING_LIT: '"' ('\\'[bfrnt\\"]|~[\r\t\n\\"])* '"';
-STRING_LIT_NO_QUOTES: [a-zA-Z\\.]+;
+STRING_LIT_NO_QUOTES: [a-zA-Z\\.0-9]+;
 // parser stuff
 diagramExpression: DIAGRAM diagramBody END;
 
